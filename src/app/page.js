@@ -5,6 +5,7 @@ import Main from "@/components/Main";
 import Description from "@/components/Description";
 import ContactUs from "@/components/ContactUs";
 import ContactForm from "@/components/ContactForm";
+import ItemCards from "@/components/ItemCards";
 
 export default function Home() {
  
@@ -13,6 +14,7 @@ export default function Home() {
       <Header/>
       <Main/>
       <Description/>
+      <ItemCards/>
       <ContactUs/>
       <ContactForm/>
       <Footer/>
