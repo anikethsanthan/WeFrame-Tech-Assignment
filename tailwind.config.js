@@ -14,6 +14,9 @@ module.exports = {
       fontWeight: {
         'custom-weight': 550,
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #EE4197 0%, #FFFFFF 56.61%)',
+      },
     },
   },
   plugins: [],

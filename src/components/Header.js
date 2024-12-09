@@ -25,7 +25,7 @@ export default function Header(){
 
          <div className="flex justify-evenly  w-[109px] h-[21px] mt-[45px]  leading-[21px]">
              <img className="h-[18px] w-[18px]"  src="./lightbulb-01.png" alt="bulb"></img>
-             <p className="font-medium text-[#3B4347] w-[83px]"> Inspirations</p>
+             <p className="font-medium text-[#3B4347] w-[83px] text-[14px]"> Inspirations</p>
              </div>
    
          <div className="flex justify-evenly w-[164px] h-[48px] mt-[31px]  p-[13.5px] gap-[8px]">
@@ -51,9 +51,11 @@ export default function Header(){
       
 
           {/* avatar/User Icon */}
-         <div className="flex absolute left-[1404px]"> </div>
-          <img className="w-[44px] h-[44px]" src="./Avatar.png" alt="avatar"></img>
-          <p>FR</p>
+         <div className="flex justify-end w-[176px] h-[44px]  pl-[50px] "> </div>
+          <img className="w-[44px] h-[44px] absolute left-[423px] top-[33px]" src="./Avatar.png" alt="avatar"></img>
+         
+          <p className="absolute left-[480px] top-[45px] text-[14px] font-medium">FR</p>
+            <img className=" absolute left-[507px] top-[50px] w-[10px] h-[5.83px]" src="./dropd.png" alt="vector"></img>
         </div>
 
 

@@ -33,7 +33,7 @@ const Main = () => {
         <div className='w-[761px] h-[652px]  absolute left-[816px] top-[231px]'>
             <div className='flex justify-between'>
             <h1 id='text'>Cheese – appareil à raclette 1/2 roue</h1>
-            <img className='w-[27.64px] h-[25.34px] mt-[6px] ' src='./Vector.png' alt='heart'></img>
+            <img className='w-[27.64px] h-[25.34px] mt-[6px] ' src='./HEART1.png' alt='heart'></img>
 
             </div>
             
