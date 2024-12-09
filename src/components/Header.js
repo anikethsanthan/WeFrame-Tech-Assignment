@@ -2,7 +2,7 @@
 "use client";
 export default function Header(){
    return (
-    <div className="border-b-2 border-[#E5E7EB] w-[1600px] h-168px">
+    <div className="border-b-2 border-[#E5E7EB] w-[1600px] h-168px fixed top-0 z-50 bg-white">
     <div className=" flex h-[168px] ">
         {/* Logo Section */}
         <div><img className="w-[133.01px] h-[65px] mt-[33px] ml-[29px]" src="./Group.png" alt="logo"></img></div>

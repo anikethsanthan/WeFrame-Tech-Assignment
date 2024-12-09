@@ -1,6 +1,6 @@
 export const cardData = [
     {
-      imageurl: "./Table ronde 165cm Festi 1.png",
+      imageurl: "./Table-ronde-165cm-Festi-1.png",
       title: "Title ",
       smallTitle: "Art de la table",
       price: "0",
@@ -10,7 +10,7 @@ export const cardData = [
       id:1
     },
     {
-        imageurl: "./Table ronde 165cm Festi 1.png",
+        imageurl: "./Table-ronde-165cm-Festi-1.png",
         title: "Title 1",
         smallTitle: "Art de la table",
         price: "0",
@@ -20,7 +20,7 @@ export const cardData = [
         id:2
     },
     {
-        imageurl: "./Table ronde 165cm Festi 1.png",
+        imageurl: "./Table-ronde-165cm-Festi-1.png",
         title: "Title 1",
         smallTitle: "Art de la table",
         price: "0",
@@ -30,7 +30,7 @@ export const cardData = [
         id:3
     },
     {
-        imageurl: "./Table ronde 165cm Festi 1.png",
+        imageurl: "./Table-ronde-165cm-Festi-1.png", 
         title: "Title 1",
         smallTitle: "Art de la table",
         price: "0",
@@ -40,7 +40,7 @@ export const cardData = [
         id:4
     },
     {
-        imageurl: "./Table ronde 165cm Festi 1.png",
+        imageurl: "./Table-ronde-165cm-Festi-1.png",
         title: "Title 1",
         smallTitle: "Art de la table",
         price: "0",

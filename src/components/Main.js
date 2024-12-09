@@ -27,7 +27,7 @@ const Main = () => {
             </div>
 
             {/* main large image */}
-            <img className="w-[552px] h-[552px] bg-[#F8F6F4] absolute left-[141px] top-[42px]" src='./Location Cheese big picture 1.png' alt='main logo'></img>
+            <img className="w-[552px] h-[552px] bg-[#F8F6F4] absolute left-[141px] top-[42px]" src='./yof.png' alt='main logo'></img>
         </div>
         {/* main text section */}
         <div className='w-[761px] h-[652px]  absolute left-[816px] top-[231px]'>
