@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from 'react'
 
@@ -14,14 +15,39 @@ const ContactUs = () => {
         </div>
 
        {/* lower icons */}
-        <div className='absolute top-[182px] pt-[10px] pb-[10px] flex justify-between'>
-            <div>Hello</div>
-            <div>Hello</div>
-            <div>Hello</div>
-            <div>Hello</div>
+        <div className='  absolute top-[182px] left-[336px] w-[928px] h-[139px] pt-[10px] pb-[10px] flex justify-between  '>
+
+            <div className='w-auto h-auto flex flex-col items-center '>
+              <img className='flex justify-center ' src='./Groupe_25.png' alt='bag'></img>
+              <p className='mt-[19px] text-center text-[20px] '>Livraison & Reprise</p>
+              <p className='text-[#9C9C9C] text-[14px] text-center '>Selon vos besoins</p>
+            </div>
+
+            {/* <div className='w-[100px] h-[2px] bg-gray-300 mx-4 '></div> */}
+
+            <div className='w-auto h-auto flex flex-col items-center '>
+            <img className='' src='./Groupe 504.png' alt='bag'></img>
+            <p className='mt-[19px] text-center text-[20px] '>Nettoyage</p>
+            <p className='text-[#9C9C9C] text-[14px] text-center '>Selon vos besoins</p>
+            </div>
+
+            <div className='w-auto h-auto flex flex-col items-center'>
+            <img  className='' src='./Groupe_56.png' alt='bag'></img>
+            <p className='mt-[19px] text-center text-[20px] '>Commande Illimitée</p>
+            <p className='text-[#9C9C9C] text-[14px] text-center '>Tout est possible</p>
+            </div>
+
+            <div className='w-auto h-auto flex flex-col items-center'>
+            <img className='' src='./Groupe_123.png' alt='bag'></img>
+            <p className='mt-[19px] text-center text-[20px] '>Transport & Enlèvement</p>
+            <p className='text-[#9C9C9C] text-[14px] text-center '>On s’occupe de tout.</p>
+            </div>
+
+          </div>
+           
         
         </div>
-    </div>
+
   )
 }
 

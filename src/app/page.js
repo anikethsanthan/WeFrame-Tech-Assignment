@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Main from "@/components/Main";
 import Description from "@/components/Description";
 import ContactUs from "@/components/ContactUs";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
  
@@ -13,6 +14,7 @@ export default function Home() {
       <Main/>
       <Description/>
       <ContactUs/>
+      <ContactForm/>
       <Footer/>
       
     </div>

@@ -43,7 +43,7 @@ export default function Header(){
          rounded-[6px]
          h-[48px] w-[105px]
           bg-[#0093D0]
-          pt-[11.67px] pb-[10px] pr-[16px] pl-[16px]"> 
+          pt-[11.67px] pb-[10px] pr-[16px] pl-[16px] hover:shadow-lg"> 
 
           <img  className="w-[20px] h-[20px]" src="./Icon.png" alt="cart"></img>Panier</button>
 
