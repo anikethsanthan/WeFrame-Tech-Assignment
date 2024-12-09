@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React from 'react'
-import useCards from '@/Hooks/useCards';
+import Cards from '@/components/Cards';
 
 const ItemCards = () => {
   return (
@@ -13,7 +13,7 @@ const ItemCards = () => {
             </div>
 
             <div className='w-[1540px] h-[430px]  ml-[60px]'>
-                {useCards()} 
+                <Cards cardWidth="330px" />
             </div>
       
     </div>

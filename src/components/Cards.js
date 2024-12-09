@@ -3,13 +3,12 @@
 import React from 'react';
  import { cardData } from '@/utilities/utils.js';
 
-const useCards = () => {
+const Cards = () => {
   return (
-    <div className='flex'>
-        {cardData.map((card, index) => (<>
-        <div >
+    <div  className='flex'> 
+        {cardData.map((card) => (
        
-        <div key={index} className='w-[330px] h-[438px] mr-[24px]  rounded-[8px]  '>
+        <div key={card.id} className='w-[330px] h-[438px] mr-[24px]  rounded-[8px]  '>
                     {/* like section */}
                     <div  className='absolute top-[127px] flex justify-between'>
                         <div>
@@ -35,11 +34,11 @@ const useCards = () => {
                     </div>
 
                 </div>
-                </div>
-                </>))}
+
+                ))}
       
     </div>
   )
 }
 
-export default useCards
+export default Cards

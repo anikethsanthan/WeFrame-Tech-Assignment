@@ -6,6 +6,7 @@ import Description from "@/components/Description";
 import ContactUs from "@/components/ContactUs";
 import ContactForm from "@/components/ContactForm";
 import ItemCards from "@/components/ItemCards";
+import Recommendation from "@/components/Recommendation";
 
 export default function Home() {
  
@@ -15,6 +16,7 @@ export default function Home() {
       <Main/>
       <Description/>
       <ItemCards/>
+      <Recommendation/>
       <ContactUs/>
       <ContactForm/>
       <Footer/>
