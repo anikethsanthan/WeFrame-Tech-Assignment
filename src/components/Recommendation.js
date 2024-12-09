@@ -18,20 +18,20 @@ const Recommendation = () => {
         
         {cardData.map((card) => (
        
-       <div key={card.id} className='w-[330px] h-[438px] mr-[24px] rounded-[8px] group'>
+       <div key={card.id} className='w-[506px] h-[438px] mr-[24px] rounded-[8px] group'>
        {/* like section */}
        <div className='bg-[#F9F7F5] absolute top-[109px] flex justify-between'>
          <div className='pt-[20px]'>
            <img className="h-[32px] w-[32px] hover:shadow-lg ml-[12px]" src='./Vector.heartpng.png' alt='heart' />
          </div>
-         <div className='mt-[20px] bg-[#FFFFFF] w-[100px] h-[18px] rounded-[4px] ml-[166px]'>
+         <div className='mt-[20px] bg-[#FFFFFF] w-[100px] h-[18px] rounded-[4px] ml-[352px]'>
            <p className='font-medium text-[10px] text-[#111928] text-center pt-[2px]'>{card.smallTitle}</p>
          </div>
        </div>
 
        {/* main image */}
-       <div className='bg-[#F9F7F5] w-[330px] h-[362px]'>
-         <img className="hover:scale-105 w-[224px] h-[300px] object-cover ml-[53px] mr-[53px] pt-[74px] flex justify-center" src={card.imageurl} alt='itemimg' />
+       <div className='bg-[#F9F7F5] w-[506px] h-[362px]'>
+         <img className="hover:scale-105 w-[224px] h-[300px] object-cover ml-[141px] mr-[53px] pt-[74px] flex justify-center" src={card.imageurl} alt='itemimg' />
        </div>
 
        {/* add button displays when hovered */}
@@ -46,13 +46,13 @@ const Recommendation = () => {
        </div>
 
        {/* heading and main price tag */}
-       <div className='flex justify-between w-[310px] pl-[10px] -mt-[10px]'>
+       <div className='flex justify-between w-[506px] pl-[10px] -mt-[10px]'>
          <h1 className='text-[24px] font-normal'>{card.title}</h1>
          <p className='text-[24px] font-medium'>{card.price}<sup>€</sup></p>
        </div>
 
        {/* extra info */}
-       <div className='flex justify-between w-[310px] pl-[10px] mt-2'>
+       <div className='flex justify-between w-[506px] pl-[10px] mt-2'>
          <h1 className='font-normal text-[14px] text-[#9C9C9C]'>{card.fullPrice}€/Piece .REF.{card.ref} </h1>
          <p className='bg-[#F1F4F6] w-[68px] h-[26px] text-[11px] font-medium text-center pt-[5px] text-[#546A7D] rounded-lg'>{card.pieces} Pieces</p>
        </div>

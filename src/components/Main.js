@@ -9,8 +9,10 @@ const Main = () => {
         {/* small text section of top */}
       <div className='w-[159px] h-[45px] absolute top-[177px] p-[12px] flex ml-[34px]'>
         <h3 className='text-[14px] text-[#393939] w-[39px]'>Home </h3>
-        <div className="w-24 h-24 bg-[#9C9C9C] rounded-full"></div>
-        <ul className='text-[14px] text-[#9C9C9C] ml-[25px] w-[95] flex-nowrap'>
+
+        <div className="w-[5px] h-[5px] ml-[16px] mt-[8px] bg-[#9C9C9C] rounded-full flex-shrink-0"></div>
+
+        <ul className='text-[14px] text-[#9C9C9C] ml-[16px] w-[95] flex-nowrap'>
             <li className='w-[95px]'>Art de la table</li>
         </ul>
       </div>
@@ -56,12 +58,12 @@ const Main = () => {
                 </div>
 
                 <div>
-                    <p className='text-[#9C9C9C] font-normal'>RÉF : VABGN5</p>
+                    <p className='text-[#9C9C9C] text-[12px] font-normal'>RÉF : VABGN5</p>
                 </div>
             </div>
 
             <div className='absolute top-[170px] h-[412px] border-b-[0.5px] border-[#9C9C9C] w-[761px]  ' >
-                <p className='text-[#5D5D5D]'>
+                <p className='text-[#5D5D5D] text-[14px] font-normal'>
                    Location appareil à raclette - Raclette traditionnelle 1/2 roue<br></br>
                    Réglable en hauteur<br></br>
                    Appareil à raclette professionnel<br></br>

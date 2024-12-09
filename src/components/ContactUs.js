@@ -5,7 +5,7 @@ import React from 'react'
 const ContactUs = () => {
   return (
    
-    <div className='absolute top-[2364px] w-[1662px] h-[567px] bg-gradient-to-b from-[#EE4197]/10 via-[#EE4197]/5 to-[#FFFFFF]'>
+    <div className='absolute top-[2364px] w-[1662px] h-[567px] bg-gradient-to-b from-[#EE4197]/5 via-[#EE4197]/2 to-[#FFFFFF]'>
        {/* upper text and heading */}
         <div className='absolute left-[336px] w-[928px] h-[255px] pt-[66px]'>
              <div className='flex justify-center'>
