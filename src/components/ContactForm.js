@@ -11,7 +11,7 @@ const ContactForm = () => {
       </div>
 
       <div className='absolute top-[2822px] left-[742px] h-[300px] w-[818px] bg-[#FFF3F9] rounded-[20px]'>
-        <p className='ml-[34px] text-4xl pt-[36px]'> S'inscrire & économiser <span className='text-[#5CD2DD]'>10%</span></p>
+        <p className='ml-[34px] text-4xl pt-[36px]'> Sinscrire & économiser <span className='text-[#5CD2DD]'>10%</span></p>
         <p className='font-medium text-[14px] text-[#BDA2B0] w-[753px] h-[71px] mt-[27px] ml-[34px]'>Office ipsum you must be muted.
              Synergize helicopter prioritize anyway job due
               harvest most opportunity didnt. 
