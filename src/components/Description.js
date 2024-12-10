@@ -22,11 +22,11 @@ const Description = () => {
         </div>
 
         <div className='absolute left-[762px] w-[758px] h-[124px] bg-[#FBF9F899]'>
-            <div className='h-[62px] font-medium text-[16px] pt-[20] pl-[52px] text-[#393939] hover:border border-[#0093D0] flex'>
+            <div className='h-[62px] font-medium text-[16px] pt-[20] pl-[52px] text-[#393939] cursor-pointer hover:border border-[#0093D0] flex'>
                 <p>LIVRAISONS</p>
                 <button className='flex  absolute left-[720px] font-bold text-[20px]'>+</button>
             </div>
-            <div className='h-[62px] font-medium text-[16px] pt-[20] pl-[52px] text-[#393939] hover:border border-[#0093D0] flex'>
+            <div className='h-[62px] font-medium text-[16px] pt-[20] pl-[52px] text-[#393939] cursor-pointer hover:border border-[#0093D0] flex'>
                 <p>QUESTIONS</p>
                 <button className='flex  absolute left-[720px] font-bold text-[20px]'>+</button>
             </div>

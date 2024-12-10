@@ -35,7 +35,7 @@ const Main = () => {
         <div className='w-[761px] h-[652px]  absolute left-[816px] top-[231px]'>
             <div className='flex justify-between'>
             <h1 id='text'>Cheese – appareil à raclette 1/2 roue</h1>
-            <img className='w-[27.64px] h-[25.34px] mt-[6px] ' src='./HEART1.png' alt='heart'></img>
+            <img className='w-[27.64px] h-[25.34px] mt-[6px] hover:scale-105 cursor-pointer ' src='./HEART1.png' alt='heart'></img>
 
             </div>
             
@@ -83,7 +83,7 @@ const Main = () => {
                 </div>
             {/* add to cart     */}
                 <div className=''>
-                    <button className='absolute left-[162px] w-[592px] h-[50px] rounded-[0.250rem] bg-[#5CD2DD] text-[#FFFFFF] font-bold'>Ajouter au panier</button>
+                    <button className='absolute left-[162px] w-[592px] h-[50px] rounded-[0.250rem] bg-[#5CD2DD] text-[#FFFFFF] font-bold hover:shadow-lg'>Ajouter au panier</button>
                 </div>
                 
             </div>

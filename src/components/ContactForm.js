@@ -20,10 +20,10 @@ const ContactForm = () => {
                 Company another pushback items dear or any.
         </p>
 
-        <input input="text" className=' hover:shadow-lg w-[565px] h-[58px] ml-[34px] absolute top-[188px] pl-[56px] rounded-[8px]' placeholder='john@doe.com'></input>
+        <input input="text" className=' hover:shadow-md w-[565px] h-[58px] ml-[34px] absolute top-[188px] pl-[56px] rounded-[8px]' placeholder='john@doe.com'></input>
         <button className='flex justify-center p-[15px] bg-[#5CD2DD]
          h-[58px] absolute top-[188px] left-[612px] rounded-[8px]
-          w-[167px] ml-[8px] text-[#FFFFFF] hover:shadow-lg'>
+          w-[167px] ml-[8px] text-[#FFFFFF] hover:shadow-md'>
             S&apos;inscrire <img className='w-[22px] h-[22px] ' src='./arrow-right.png' alt='arrow'></img></button>
          
       </div>

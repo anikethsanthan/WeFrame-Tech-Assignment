@@ -61,7 +61,7 @@ export default function Header(){
 
     </div>
 
-    <div className=" h-[21px] w-[1537px] absolute top-[130.42px] ml-[23px]  flex-nowrap ">
+    <div className=" h-[21px] w-[1537px] absolute top-[130.42px] ml-[23px]  flex-nowrap cursor-pointer">
 
        <span className="h-[21px] font-medium text-[14px] leading-[21px] pr-[23px] text-[#6B7280] hover:text-[#0093D0] hover:font-bold hover:pb-[17px] hover:border-b-2 border-[#0093D0]">ART DE LA TABLE</span>
        <span className="h-[21px] font-medium text-[14px] leading-[21px] pl-[18.5px] pr-[18.5px] text-[#6B7280] hover:text-[#0093D0] hover:font-bold hover:pb-[17px] hover:border-b-2 border-[#0093D0]"> MOBILIER</span>

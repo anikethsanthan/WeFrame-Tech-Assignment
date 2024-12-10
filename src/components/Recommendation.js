@@ -22,7 +22,7 @@ const Recommendation = () => {
        {/* like section */}
        <div className='bg-[#F9F7F5] absolute top-[109px] flex justify-between'>
          <div className='pt-[20px]'>
-           <img className="h-[32px] w-[32px] hover:shadow-lg ml-[12px]" src='./Vector.heartpng.png' alt='heart' />
+           <img className="h-[32px] w-[32px] hover:scale-110 cursor-pointer ml-[12px]" src='./Heart123.png' alt='heart' />
          </div>
          <div className='mt-[20px] bg-[#FFFFFF] w-[100px] h-[18px] rounded-[4px] ml-[352px]'>
            <p className='font-medium text-[10px] text-[#111928] text-center pt-[2px]'>{card.smallTitle}</p>
@@ -35,7 +35,7 @@ const Recommendation = () => {
        </div>
 
        {/* add button displays when hovered */}
-       <div className='bg-white ml-[8px] mr-[8px] rounded-md pt-2 pb-2 hover:scale-105 flex justify-between -mt-[3.75rem] mb-[1.75rem] pl-[20px] pr-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+       <div className=' cursor-pointer bg-white ml-[8px] mr-[8px] rounded-md pt-2 pb-2 hover:scale-105 flex justify-between -mt-[3.75rem] mb-[1.75rem] pl-[20px] pr-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
          <p className='pt-2'>QTÉ</p>
          <div className='flex items-center space-x-2 rounded-[0.250rem]'>
            <button className="px-4 py-2 font-medium rounded hover:bg-gray-300">-</button>
